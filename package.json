@@ -1,0 +1,45 @@
+{
+  "name": "review-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielarck/review-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielarck/review-api/issues"
+  },
+  "homepage": "https://github.com/gabrielarck/review-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "body-parser-json": "^1.9.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-prettier-standard": "^3.0.1",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongodb-memory-server": "6.5.2",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3"
+  }
+}
